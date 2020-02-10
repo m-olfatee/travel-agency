@@ -1,13 +1,14 @@
 body {
-    position: relative;
     margin: 0;
-    background: url(../img/cosmic-timetraveler-p_Mtubqy5AA-unsplash.jpg) center no-repeat;
-    height: 100vh;
-    background-size: cover;
-    margin: 0 auto;
 
 }
-h1 {
+#home {
+    height: 100vh;    
+    background: url(../img/cosmic-timetraveler-p_Mtubqy5AA-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#home h1 {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -17,4 +18,51 @@ h1 {
     height: fit-content;
     font-size: 6em;
     text-align: center;
+}
+#about {
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+#about h2 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 60%;
+    height: fit-content;
+    font-size: 3em;
+    color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+}
+#about p {
+    width: 80%;
+    height: fit-content;
+    font-size: 2em;
+    color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+}
+#about a {
+    text-decoration: none;
+    font-size: 2em;
+    color: whitesmoke;
+    display: inline-block;
+    padding-top: 10%;
+}
+#footer {
+    background-color: black;
+    text-align: center;
+    border-top: 2px solid blanchedalmond;
+
+}
+#footer h {
+    margin: 0;
+
+}
+#footer a {
+    text-decoration: none;
+    font-size: 2em;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 3%;
 }
